@@ -9,8 +9,10 @@ const Navigation = () => {
 	}
 	return(
 		<div className="nav-bar">
-			<label className="label-text">Hello,</label>
 			<ul className="navigation-bar">
+				<li className="nav-item">
+					<label className="label-text">Hello</label>
+				</li>
 				<li className="nav-item">
 					<Link className="navigation-link" to="/">Home</Link>
 				</li>

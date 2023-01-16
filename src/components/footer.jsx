@@ -1,9 +1,12 @@
 import React from "react";
+import './Footer.css';
 
 const Footer = () => {
   return(
-		<div>
-			<h1>Hello world</h1>
+		<div className="footer">
+			<div className='border-line'>
+				<label htmlFor="Intro"></label>
+			</div>
 		</div>
 	)
 }
