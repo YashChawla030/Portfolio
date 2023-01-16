@@ -3,10 +3,10 @@
     padding: 0%;
     box-sizing: border-box;
     width: 100vw;
-    background-color: rgb(6, 8, 24);
+    background-color: #21211f;
     display: inline-flex;
     justify-content: center;
-
+    border-bottom: 2px solid white;
 }
 
 .label-text {
