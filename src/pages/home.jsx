@@ -1,8 +1,11 @@
 import React from 'react';
-  
+import './Home.css';
+
 function Home (){
 	return( 
-		<h1 style={{'background': "black"}}>Welcome to the world of Geeks!</h1>
+		<div className='middle'>
+			
+		</div>
 	)
 }
   
