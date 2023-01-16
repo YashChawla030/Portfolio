@@ -21,6 +21,9 @@ const Footer = () => {
 						<BsGithub fontSize={26} color="white"/>
 					</a>
 				</div>
+				<div className="thanks-label">
+					<label>Copy Right 2023</label>
+				</div>
 			</div>
 		</div>
 	)

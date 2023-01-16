@@ -1,8 +1,8 @@
 .footer {
     width: 100vw;
-    height: 20vh;
     margin: 0%;
-    background-color: #21211f;
+    padding: 10px;
+    background: linear-gradient(to right, #21211f, black);
     display: flex;
     justify-content: center;
 }

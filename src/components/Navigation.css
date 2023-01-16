@@ -3,7 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
     width: 100vw;
-    background-color: #21211f;
+    background: linear-gradient(to right, #21211f, black);
     display: inline-flex;
     justify-content: center;
     border-bottom: 2px solid white;

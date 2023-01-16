@@ -2,5 +2,18 @@
     width: 100vw;
     height: 100vh;
     margin: 0%;
-    background-color: #21211f;
+    background: linear-gradient(to right, #21211f, black);
+}
+
+.intro-div{
+    width: 50%;
+    height: 50vh;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+}
+
+.header-title {
+    font-size: 26px;
+    color: white;
 }
