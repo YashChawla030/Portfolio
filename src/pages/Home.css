@@ -1,18 +1,24 @@
 .middle {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
     margin: 0%;
+    padding-top: 5vw;
+    justify-content: center;
     background: linear-gradient(to right, #21211f, rgb(32, 33, 37));
 }
 
+.upper-intro {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
 .intro-div{
-    width: 50%;
+    width: 40%;
     height: 50vh;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    background-color: aqua;
+    /* position: absolute;
+    left: 35%;
+    top: 50%; */
+    /* transform: translate(-50%,-50%); */
 }
 
 .header-title {
@@ -22,8 +28,24 @@
     font-weight: 200;
 }
 
+.intro-title {
+    margin: 10px;
+}
+
 .discription {
     font-size: 16px;
     color: white;
     font-family: sans-serif;
+}
+
+.image-container {
+    width: 20%;
+    height: 40vh;
+    background-color: black;
+}
+
+.social-portion {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
 }
