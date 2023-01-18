@@ -1,7 +1,6 @@
 import React from "react";
 import "./Navigation.css";
 import {  Link } from 'react-router-dom';
-import { AbhishekSingh_Resume } from '../assets/AbhishekSingh_Resume.pdf'
 
 const Navigation = () => {
 	const downloadCV = () => {
