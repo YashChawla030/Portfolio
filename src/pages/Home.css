@@ -13,7 +13,7 @@
 }
 
 .intro-div{
-    width: 40%;
+    width: 60%;
     height: 50vh;
     /* position: absolute;
     left: 35%;
@@ -44,8 +44,40 @@
     background-color: black;
 }
 
-.social-portion {
-    width: 100%;
-    display: inline-flex;
+
+.social-portion{
+    padding: 15px;
     justify-content: center;
+}
+
+.social-sites{
+    margin: 10px;
+    display: inline-flex;
+}
+
+.social-items{
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    align-items: center;
+    background-color: #151514;
+}
+
+.header-view {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.service-header{
+    width: 80%;
+}
+
+.card-container{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.discription-container{
+    color: white;
 }
