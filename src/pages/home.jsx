@@ -1,5 +1,5 @@
 import React from 'react';
-import CardView from '../components/CardView';
+import ServiceCardView from '../components/ServiceCardView';
 import './Home.css';
 import { BsGithub, BsLinkedin, BsStackOverflow } from 'react-icons/bs';
 
@@ -26,14 +26,14 @@ function Home (){
 					<div className='intro-title'>
 						<label style={{'fontSize':20}} className='header-title'>FIND ME ON</label>
 					</div>
-					<div className="url-div">
-						<a href="https://stackoverflow.com/users/18128321/abhishek-singh" className="icon-link">
+					<div className="social-sites">
+						<a href="https://stackoverflow.com/users/18128321/abhishek-singh" className="social-items">
 							<BsStackOverflow fontSize={26} color="white"/>
 						</a>
-						<a href="https://www.linkedin.com/in/abhishek-singh29" className="icon-link">
+						<a href="https://www.linkedin.com/in/abhishek-singh29" className="social-items">
 							<BsLinkedin fontSize={26} color="white"/>
 						</a>
-						<a href="https://github.com/Aabhishek29" className="icon-link">
+						<a href="https://github.com/Aabhishek29" className="social-items">
 							<BsGithub fontSize={26} color="white"/>
 						</a>
 					</div>
@@ -43,7 +43,17 @@ function Home (){
 				</div>
 			</div>
 			<div className='social-portion'>
-				
+				<div className='header-view'>
+					<div className='service-header'>
+						<label style={{'color':'#ff0000'}} >My Services</label>
+						<h1 style={{'color':'#fff', 'fontSize':55}}>What I Do</h1>
+					</div>
+				</div>
+				<div className='card-container'>
+					<ServiceCardView name={'Web Developer'} className="card"/>
+					<ServiceCardView name={'Android Developer'} className="card"/>
+					<ServiceCardView name={'Game Developer'} className="card"/>
+				</div>
 			</div>
 		</div>
 	)

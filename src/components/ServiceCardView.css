@@ -1,0 +1,14 @@
+.card{
+    width: 100%;
+    padding: 15px;
+    margin: 15px;
+    background: linear-gradient(to right, rgb(27, 26, 26),rgb(55, 55, 55));
+    border-radius: 15px;
+    box-shadow: 4px 6px 10px rgb(139, 137, 137);
+}
+
+.card-header{
+    color: aliceblue;
+    font-size: 22px;
+    padding: 10px;
+}
