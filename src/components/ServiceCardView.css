@@ -4,7 +4,7 @@
     margin: 15px;
     background: linear-gradient(to right, rgb(27, 26, 26),rgb(55, 55, 55));
     border-radius: 15px;
-    box-shadow: 4px 6px 10px rgb(139, 137, 137);
+    box-shadow: 1px 1px 10px rgb(139, 137, 137);
 }
 
 .card-header{

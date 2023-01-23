@@ -24,7 +24,7 @@ const ServiceCardView = ({name}) => {
 		}
 	}
 
-  return(
+  	return(
 		<>
 			<div className="card">
 					{icons(name)}
@@ -36,7 +36,7 @@ const ServiceCardView = ({name}) => {
 				</div>
 			</div>
 		</>
-  )
+  	)
 }
 
 export default ServiceCardView;
