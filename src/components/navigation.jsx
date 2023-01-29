@@ -10,14 +10,14 @@ const Navigation = () => {
 		<div className="nav-bar">
 			<ul className="navigation-bar">
 				<li className="nav-item">
-					<label className="label-text">Hello</label>
+					<label className="label-text">Hello,</label>
 				</li>
 				<li className="nav-item">
 					<Link className="navigation-link" to="/">Home</Link>
 				</li>
 				<li className="nav-item">
 					<Link className="navigation-link" to="/projects">Projects</Link>
-				</li>
+				</li>	
 				<li className="nav-item">
 					<Link className="navigation-link" to="/contact">Contact Me</Link>
 				</li>

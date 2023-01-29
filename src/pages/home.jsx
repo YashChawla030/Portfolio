@@ -2,6 +2,7 @@ import React from 'react';
 import ServiceCardView from '../components/ServiceCardView';
 import './Home.css';
 import { BsGithub, BsLinkedin, BsStackOverflow } from 'react-icons/bs';
+import Contact from './contact';
 
 
 function Home (){
@@ -52,9 +53,10 @@ function Home (){
 				<div className='card-container'>
 					<ServiceCardView name={'Web Developer'} className="card"/>
 					<ServiceCardView name={'Android Developer'} className="card"/>
-					<ServiceCardView name={'Game Developer'} className="card"/>
+					<ServiceCardView name={'iOS Developer'} className="card"/>
 				</div>
 			</div>
+			<Contact />
 		</div>
 	)
 }
