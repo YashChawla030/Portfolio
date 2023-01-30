@@ -1,0 +1,30 @@
+.project-section{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #21211f, rgb(32, 33, 37));  
+}
+
+.label-container{
+    color: #ff0000;
+    font-size: 32px;
+}
+
+.project-container{
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+}
+
+.check-btn{
+    color: aliceblue;
+    background-color: #151515;
+    padding: 15px;
+    border-radius: 10px;
+    display: inline;
+    text-decoration: none;
+    cursor: pointer;
+}

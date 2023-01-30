@@ -1,64 +1,61 @@
 import React from 'react';
+import { useState } from 'react';
 import './Contact.css';
 import { RiSendPlaneFill } from 'react-icons/ri';
   
-class Contact extends React.Component {
+function Contact () {
+  const [name,setName] = useState(null);
+  const [email,setEmail] = useState(null);
+  const [phone,setPhone] = useState(null);
+  const [subject,setSubject] = useState(null);
+  const [msg,setMessage] = useState(null);
 
-
-  constructor(props) {
-    super(props);
-    this.state = {value: ''};
-
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
+  const submitBtn = () => {
+    // var fs = require('fs');
+    // var content = `name = ${name}\n 'email = ${email}\n phone = ${phone}\n subject = ${subject}\n message = ${msg}\n`;
+    // fs.writeFile('contact.txt', content, function (err) {
+    //   if (err) throw err;
+    //   console.log('Saved!');
+    // });
+    console.log(`hello ${name} ${email} ${phone} ${subject} ${msg}`);
   }
 
-  handleChange(event) {
-    this.setState({value: event.target.value});
-  }
-
-  handleSubmit(event) {
-    alert('A name was submitted: ' + this.state.value);
-    event.preventDefault();
-  }
-  render() {
-    return( 
-      <div className='container'>
-        <div style={{'display': 'block'}}>
-          <div className='title'>
-	  			    <header>CONTACT</header>
-	  		  </div>
-        </div>
-        <div style={{'display': 'block'}}>
-          <div className='contact-title'>
-            <header>Contact With Me</header>
-          </div>
-        </div>
-        <div className='form-container'>
-          <form className='form'>
-            <div className='form-container'>
-              <div className='input-container'>
-                <input className='input-field' value={this.state.value} type={'text'} autoComplete="new-password" placeholder={'Enter Your Name'} onChange={this.handleChange}/>
-                <input className='input-field' type={'number'} autoComplete="new-password" placeholder={'Enter Your Phone'} />
-              </div>
-              <br />
-              <div className='input-container'>
-                <input className='input-field' type={'text'} autoComplete={"new-password"} placeholder={'Enter Your Email'} />
-                <input className='input-field' type={'number'} autoComplete={"new-password"} placeholder={'Enter Your Subject'} />
-              </div>
-              <textarea placeholder='Enter Your Message' className='text-field' type={'text'} />
-              <div className='send-btn'>
-                <div className='btn' onClick={this.handleSubmit}>
-                  <label>Send Message</label>
-                  <RiSendPlaneFill style={{'padding':5}} />
-                </div>
-              </div>
-            </div>
-          </form>
+  return( 
+    <div className='container'>
+      <div style={{'display': 'block'}}>
+        <div className='title'>
+				    <header>CONTACT</header>
+			  </div>
+      </div>
+      <div style={{'display': 'block'}}>
+        <div className='contact-title'>
+          <header>Contact With Me</header>
         </div>
       </div>
-    )
-  }
+      <div className='form-container'>
+        <form className='form' onSubmit={submitBtn}>
+          <div className='form-container'>
+            <div className='input-container'>
+              <input className='input-field' type={'text'} autoComplete="new-password" placeholder={'Enter Your Name'} onChange={e => setName(e.target.value)}/>
+              <input className='input-field' type={'number'} autoComplete="new-password" placeholder={'Enter Your Phone'} onChange={e => setPhone(e.target.value)}/>
+            </div>
+            <br />
+            <div className='input-container'>
+              <input className='input-field' type={'text'} autoComplete={"new-password"} placeholder={'Enter Your Email'} onChange={e => setEmail(e.target.value)}/>
+              <input className='input-field' type={'text'} autoComplete={"new-password"} placeholder={'Enter Your Subject'} onChange={e => setSubject(e.target.value)}/>
+            </div>
+            <textarea placeholder='Enter Your Message' className='text-field' type={'text'} onChange={e => setMessage(e.target.value)}/>
+            <div className='send-btn'>
+              <button type='submit' className='btn' >
+                <label>Send Message</label>
+                <RiSendPlaneFill style={{'padding':5}} />
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  )
 }
 
 
