@@ -1,0 +1,106 @@
+.container {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #21211f, rgb(32, 33, 37));    
+}
+
+.title{
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-title{
+    font-size: 32px;
+    color: white;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.form-container{
+    display: block;
+    justify-content: center;
+}
+
+
+.form {
+    padding: 80px;
+    width: 60vw;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    background: linear-gradient(to right, #383838, rgb(51, 51, 51));
+}
+
+.form-container {
+    text-align: center; 
+}
+
+.input-container{
+    width: 80%;
+    display: inline-flex;
+    margin: 10px;
+}
+
+.input-field {
+    background-color: #21211f;
+    padding: 10px;
+    width: 70%;
+    margin: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.text-field {
+    background-color: #21211f;
+    padding: 10px;
+    width: 75%;
+    max-width: 75%;
+    min-width: 75%;
+    margin: 30px;
+    height: 30vh;
+    max-height: 30vh;
+    min-height: 30vh;
+    border-radius: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.send-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #21211f;
+    width: 25%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: aliceblue;
+    color: #21211f;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
