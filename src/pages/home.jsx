@@ -4,6 +4,7 @@ import './Home.css';
 import { BsGithub, BsLinkedin, BsStackOverflow } from 'react-icons/bs';
 import Contact from './contact';
 import Project from './projects';
+import PortfileImage from '../assets/ProfileImage.jpeg';
 
 
 function Home (){
@@ -41,7 +42,7 @@ function Home (){
 					</div>
 				</div>
 				<div className='image-container'>
-
+				<img className='image' src={PortfileImage} alt="Logo" />
 				</div>
 			</div>
 			<div className='social-portion'>
