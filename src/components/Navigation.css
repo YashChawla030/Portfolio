@@ -9,6 +9,11 @@
     border-radius: 25px 25px 0px 0px;
 }
 
+.navigation-title{
+    margin: 15px;
+    padding: 15px;
+}
+
 .label-text {
     font-size: 26px;
     color: aliceblue;
@@ -20,7 +25,7 @@
 
 .navigation-bar{
     padding: 10px;
-    width: 80vw;
+    width: 60vw;
     margin: 10px;
     list-style: none;
     display: inline-flex;
@@ -54,3 +59,31 @@
     background-color: #fff;
     color: rgba(255, 0, 0, 0.913);
 }
+
+.mobile-menu {
+    display: none;
+}
+
+/* Css for Mobile*/
+
+@media screen and (max-width: 950px) {
+    .nav-bar {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        width: 100%;
+        background: linear-gradient(to right, #21211f, rgb(21, 60, 220));
+        display: row;
+        justify-content: center;
+        border-radius: 25px 25px 0px 0px;
+    }
+    .navigation-bar {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+        padding: 10px;
+        margin: 10px;
+    }
+  }
