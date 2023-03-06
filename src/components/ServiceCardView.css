@@ -1,6 +1,7 @@
 .card{
     width: 100%;
     padding: 15px;
+    min-height: 30vh;
     margin: 15px;
     background: linear-gradient(to right, rgb(27, 26, 26),rgb(55, 55, 55));
     border-radius: 15px;
@@ -11,4 +12,16 @@
     color: aliceblue;
     font-size: 22px;
     padding: 10px;
+}
+
+@media screen and (max-width: 950px) {
+    .card{
+        width: 90%;
+        padding: 15px;
+        min-height: 30vh;
+        margin: 15px;
+        background: linear-gradient(to right, rgb(27, 26, 26),rgb(55, 55, 55));
+        border-radius: 15px;
+        box-shadow: 1px 1px 10px rgb(139, 137, 137);
+    }
 }

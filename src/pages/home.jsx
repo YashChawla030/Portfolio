@@ -11,6 +11,9 @@ function Home (){
 	return(
 		<div className='middle'>
 			<div className='upper-intro'>
+				<div className='image-container'>
+					<img className='image' src={PortfileImage} alt="Logo" />
+				</div>
 				<div className='intro-div'>
 					<div className='intro-title'>
 						<h1 style={{'fontSize':18}} className='header-title'>Hello, I'm</h1>
@@ -41,8 +44,8 @@ function Home (){
 						</a>
 					</div>
 				</div>
-				<div className='image-container'>
-				<img className='image' src={PortfileImage} alt="Logo" />
+				<div className='image-container-right'>
+					<img className='image' src={PortfileImage} alt="Logo" />
 				</div>
 			</div>
 			<div className='social-portion'>
