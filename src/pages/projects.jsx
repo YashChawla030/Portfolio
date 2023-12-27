@@ -11,8 +11,8 @@ function Project () {
 				</div>
 				<div>
 					<div className='project-container'>
-						<ServiceCardView name={'Save Text'} className="card" />
-						<ServiceCardView name={'Voice Based Mail Sender'} className="card"/>
+						<ServiceCardView name={'Online Library Management System'} className="card" />
+						<ServiceCardView name={'Voice Based Email for Blind People'} className="card"/>
 						<ServiceCardView name={'LetsMeet'} className="card"/>
 					</div>
 					<div className='project-container'>
@@ -21,12 +21,12 @@ function Project () {
 						<ServiceCardView name={'ANO Messaging App'} className="card"/>
 					</div>
 				</div>
-				<div>
+				{/* <div>
 					<a className='check-btn' href='https://github.com/Aabhishek29'>
 						<label style={{'margin':5, 'cursor': 'pointer'}}>View All Project</label>
 						<FaArrowRight size={12}/>
 					</a>
-				</div>
+				</div> */}
 			</div>
     )
 }

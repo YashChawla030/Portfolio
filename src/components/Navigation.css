@@ -3,7 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
     width: 100%;
-    background: linear-gradient(to right, #21211f, rgb(32, 33, 37));
+    background: linear-gradient(to left, #21211f, rgb(14, 49, 63));
     display: inline-flex;
     justify-content: center;
     border-radius: 25px 25px 0px 0px;
@@ -47,18 +47,19 @@
 }
 
 .link-btn {
-    background-color: rgba(255, 0, 0, 0.913);
+    background-color: rgba(0, 0, 0, 0.913);
     color: #fff;
     padding: 15px;
-    margin: 2px;
+    margin: 0px;
     font-size: 12px;
     border-radius: 25px;
+    margin-left: 50px;
 }
 
-.link-btn:hover {
-    background-color: #fff;
+/* .link-btn:hover {
+    background-color: #000000;
     color: rgba(255, 0, 0, 0.913);
-}
+} */
 
 .mobile-menu {
     display: none;

@@ -27,11 +27,11 @@ function Contact () {
 				    <header>CONTACT</header>
 			  </div>
       </div>
-      <div style={{'display': 'block'}}>
+      {/* <div style={{'display': 'block'}}>
         <div className='contact-title'>
           <header>Contact With Me</header>
         </div>
-      </div>
+      </div> */}
       <div className='form-container'>
         <form className='form' onSubmit={submitBtn}>
           <div className='form-container'>

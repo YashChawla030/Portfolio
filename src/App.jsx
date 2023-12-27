@@ -13,7 +13,7 @@ import Contact from './pages/contact';
 function App() {
   return (
     <Router >
-        <Navigation />
+        {/* <Navigation /> */}
         <Routes>
               <Route exact path='/' element={< Home />}></Route>
               <Route exact path='/projects' element={< Project />}></Route>

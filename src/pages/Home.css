@@ -3,7 +3,8 @@
     margin: 0%;
     padding-top: 5vw;
     justify-content: center;
-    background: linear-gradient(to right, #21211f, rgb(32, 33, 37));
+    /* background: linear-gradient(to right, #21211f, rgb(32, 33, 37)); */
+    background-color: black;
 }
 
 .upper-intro {
@@ -26,6 +27,7 @@
 
 .intro-title {
     margin: 10px;
+    margin-left: 25px;
 }
 
 .discription {
@@ -35,18 +37,22 @@
 }
 
 .image-container-right {
-    width: 20%;
+    width: 25%;
     height: 50vh;
-    background-color: black;
+    /*background-color: black;*/
+    margin-left: 100px;
+    
 }
 
 .image-container {
     display: none;
+    
 }
 
 .image {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
+    border-radius: 40%;
 }
 
 
@@ -65,7 +71,7 @@
     padding: 10px;
     display: block;
     align-items: center;
-    background-color: #151514;
+    background-color: #000000;
 }
 
 .header-view {
@@ -75,12 +81,16 @@
 }
 .service-header{
     width: 80%;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 0px;
 }
 
 .card-container{
     display: flex;
-    padding: 80px;
+    padding: 30px;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .discription-container{

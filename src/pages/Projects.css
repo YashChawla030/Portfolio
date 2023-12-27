@@ -5,11 +5,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #21211f, rgb(32, 33, 37));  
+    /* background: linear-gradient(to right, #21211f, rgb(32, 33, 37));   */
+    background-color: black;
 }
 
 .label-container{
-    color: #ff0000;
+    color: #ffffff;
     font-size: 32px;
 }
 
