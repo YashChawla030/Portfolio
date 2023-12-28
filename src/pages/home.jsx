@@ -66,7 +66,7 @@ function Home (){
 			<div className='social-portion'>
 				<div className='header-view'>
 					<div className='service-header'>
-						<h1 style={{'color':'white' , 'textAlign':'middle', 'marginLeft':'500px'}} >Services</h1>
+						<h1 style={{'color':'white' , 'textAlign':'middle'}} >Services</h1>
 						{/* <h1 style={{'color':'#fff', 'fontSize':55}}>What I Do</h1> */}
 					</div>
 				</div>
