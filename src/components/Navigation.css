@@ -56,10 +56,10 @@
     margin-left: 50px;
 }
 
-/* .link-btn:hover {
+.link-btn:hover {
     background-color: #000000;
     color: rgba(255, 0, 0, 0.913);
-} */
+}
 
 .mobile-menu {
     display: none;

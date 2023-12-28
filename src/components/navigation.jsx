@@ -23,7 +23,7 @@ const Navigation = () => {
 					<Link className="navigation-link" to="/contact">Contact Me</Link>
 				</li>
 				
-				<a href={require('../assets/Abhishek_Resume.pdf')} download="Abhishek_Resume" target="_blank">
+				<a href={require('../assets/Yash_resume.pdf')} download="Yash_resume" target="_blank">
 					<button className="link-btn" onClick={downloadCV} >DOWNLOAD CV</button>
 				</a>
 			</ul>

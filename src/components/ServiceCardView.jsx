@@ -4,34 +4,36 @@ import { MdDesktopMac } from 'react-icons/md';
 import { DiAndroid } from 'react-icons/di';
 import { SiApple } from 'react-icons/si';
 import { RiWindowFill, RiBracesLine } from 'react-icons/ri';
-import { FaUnity } from "react-icons/fa";
+import { FaMusic, FaUnity } from "react-icons/fa";
 
 const ServiceCardView = ({name}) => {
 
 	const serviceData = {
 		'Web Development' : "Passionate web developer with a knack for crafting elegant and responsive solutions, dedicated to creating seamless user experiences through a blend of creativity and technical expertise.",
 		'Unity Game Development': "I have a deep passion for game development and 3D map design and bringing captivating game experiences to life.",
-		// 'iOS Developer' : "I have working experience in Swift Programming and develop an iOS AR application during my second intern",
 		'Online Library Management System' : "This system helps to manage a library and will keep record of book issue services and history.",
 		'Voice Based Email for Blind People' : "The system will not let the user make use of keyboard instead will work only on mouse operation and speech conversion to text.",
-		'LetsMeet' : "I develop this project during my 4 year by using django. it is a simple meeting developed by WebRTC python to created Peer-to-Peer RTC connection.",
-		'DSA C++' : "DSA in C++",
-		'Stress Analysis System' : 'this is my final year major project which i developed with my group this is AI based stress analysis system created by using MERN stack',
-		'ANO Messaging App' : 'I develop this project to learn android development. this is simple chatting application created in kotlin android.'
+		'Chat-bot in Python' : "A chat-bot that can ask for queries and try to resolve them along with taking the ratings of the quality.",
+		'Music Streaming Web Application' : "This application allows users to listen to songs and also search for songs using search bar. This is developed using the MERN stack and Content based filtering is used to recommend similar songs for the searched song based on artist or genre.",
+		'Horror Game (Coming Soon...)' : 'Fear awaits in our multiplayer horror game. Join friends, face the unknown, and survive the terror together.'
+		
 	}
 
 	const icons = (name) => {
-		if (name === 'Android Developer' || name === 'ANO Messaging App') {
-			return <DiAndroid fontSize={22} color={'red'} />
+		if (name === 'Music Streaming Web Application' || name === 'ANO Messaging App') {
+			return <FaMusic fontSize={22} color={'red'} />
 		}
 		if (name === 'Unity Game Development') {
 			return <FaUnity fontSize={22} color={'red'} />
 		}
-		if( name === 'DSA C++') {
+		if( name === 'Chat-bot in Python') {
 			return <RiBracesLine fontSize={22} color={'red'} />
 		}
-		if (name === 'Voice Based Mail Sender') {
+		if (name === 'Voice Based Email for Blind People') {
 			return <RiWindowFill fontSize={22} color={'red'} />
+		}
+		if (name === 'Horror Game (Coming Soon...)') {
+			return <FaUnity fontSize={22} color={'red'} />
 		}
 		else{
 			return <MdDesktopMac fontSize={22} color={'red'}/>

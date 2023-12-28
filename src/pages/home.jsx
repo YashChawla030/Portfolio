@@ -8,6 +8,9 @@ import PortfileImage from '../assets/ProfileImage.png';
 
 
 function Home (){
+	const downloadCV = () => {
+		console.log("Hello world...")
+	}	
 	return(
 		<div className='middle'>
 			<div className='upper-intro'>
@@ -48,16 +51,22 @@ function Home (){
 						<a href="https://www.instagram.com/_yash_chawla_?igsh=MWhuaW1lc3N3eGN2bw%3D%3D&utm_source=qr" className="social-items">
 							<BsInstagram fontSize={26} color="white"/>
 						</a>
+						
 					</div>
+					<br></br>
+					<a href={require('../assets/Yash_resume.pdf')} download="Yash_resume" target="_blank">
+					<button className="dwld-btn" /*style={{backgroundColor:'black', color:'white', padding:12,borderRadius:30, marginTop:20, marginLeft:50}}*/ onClick={downloadCV} >DOWNLOAD CV</button>
+				</a>
 				</div>
 				<div className='image-container-right'>
 					<img className='image' src={PortfileImage} alt="Logo" />
+					
 				</div>
 			</div>
 			<div className='social-portion'>
 				<div className='header-view'>
 					<div className='service-header'>
-						<h1 style={{'color':'white' , 'textAlign':'left'}} >My Services</h1>
+						<h1 style={{'color':'white' , 'textAlign':'middle', 'marginLeft':'500px'}} >Services</h1>
 						{/* <h1 style={{'color':'#fff', 'fontSize':55}}>What I Do</h1> */}
 					</div>
 				</div>
