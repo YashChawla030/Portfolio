@@ -6,6 +6,7 @@ import { SiApple } from 'react-icons/si';
 import { RiWindowFill, RiBracesLine } from 'react-icons/ri';
 import { FaMusic, FaUnity } from "react-icons/fa";
 
+
 const ServiceCardView = ({name}) => {
 
 	const serviceData = {
@@ -15,7 +16,7 @@ const ServiceCardView = ({name}) => {
 		'Voice Based Email for Blind People' : "The system will not let the user make use of keyboard instead will work only on mouse operation and speech conversion to text.",
 		'Chat-bot in Python' : "A chat-bot that can ask for queries and try to resolve them along with taking the ratings of the quality.",
 		'Music Streaming Web Application' : "This application allows users to listen to songs and also search for songs using search bar. This is developed using the MERN stack and Content based filtering is used to recommend similar songs for the searched song based on artist or genre.",
-		'Horror Game (Coming Soon...)' : 'Fear awaits in our multiplayer horror game. Join friends, face the unknown, and survive the terror together.'
+		'Horror Game (Coming Soon...)' : 'Fear awaits in our multiplayer horror game. Join friends, face the unknown, and survive the terror together. <a> https://drive.google.com/drive/folders/1GaBb1SCfzcIqi-Xe3xX9kZdTcamwjFkv?usp=drive_link </a>'
 		
 	}
 

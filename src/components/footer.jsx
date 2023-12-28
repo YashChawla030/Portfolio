@@ -1,8 +1,11 @@
 import React from "react";
 import './Footer.css';
-import { BsGithub, BsLinkedin, BsInstagram } from 'react-icons/bs';
+import { BsGithub, BsLinkedin, BsInstagram, BsEnvelopeFill, BsFillEnvelopeOpenFill, BsFillEnvelopeFill } from 'react-icons/bs';
 
 const Footer = () => {
+	const handleEmailClick = () => {
+		window.location.href = 'mailto:yashchawla030@gmail.com';
+	  };
   return(
 		<div className="footer">
 			<div className='border-line'>
@@ -17,8 +20,8 @@ const Footer = () => {
 						<a href="https://github.com/YashChawla030" className="social-items">
 							<BsGithub fontSize={26} color="white"/>
 						</a>
-						<a href="https://www.instagram.com/_yash_chawla_?igsh=MWhuaW1lc3N3eGN2bw%3D%3D&utm_source=qr" className="social-items">
-							<BsInstagram fontSize={26} color="white"/>
+						<a className="social-items">
+							<BsEnvelopeFill fontSize={26} onClick={handleEmailClick} color="white"/>
 						</a>
 				</div>
 				{/* <div className="thanks-label">

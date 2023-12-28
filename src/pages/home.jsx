@@ -1,16 +1,21 @@
 import React from 'react';
 import ServiceCardView from '../components/ServiceCardView';
 import './Home.css';
-import { BsGithub, BsInstagram, BsLinkedin, BsStackOverflow } from 'react-icons/bs';
+import { BsEnvelope, BsEnvelopeFill, BsGithub, BsInstagram, BsLinkedin, BsMailbox, BsMailbox2, BsStackOverflow } from 'react-icons/bs';
 // import Contact from './contact';
 import Project from './projects';
 import PortfileImage from '../assets/ProfileImage.png';
+import { FaEnvelope, FaMailBulk, FaMailchimp } from 'react-icons/fa';
 
 
 function Home (){
 	const downloadCV = () => {
 		console.log("Hello world...")
 	}	
+	
+		const handleEmailClick = () => {
+		  window.location.href = 'mailto:yashchawla030@gmail.com';
+		};
 	return(
 		<div className='middle'>
 			<div className='upper-intro'>
@@ -48,8 +53,8 @@ function Home (){
 						<a href="https://github.com/YashChawla030" className="social-items">
 							<BsGithub fontSize={26} color="white"/>
 						</a>
-						<a href="https://www.instagram.com/_yash_chawla_?igsh=MWhuaW1lc3N3eGN2bw%3D%3D&utm_source=qr" className="social-items">
-							<BsInstagram fontSize={26} color="white"/>
+						<a className="social-items">
+							<BsEnvelopeFill fontSize={26} onClick={handleEmailClick} color="white"/>
 						</a>
 						
 					</div>
