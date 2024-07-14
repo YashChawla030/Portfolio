@@ -59,7 +59,7 @@ function Home (){
 						
 					</div>
 					<br></br>
-					<a href={require('../assets/Yash_resume.pdf')} download="Yash_resume" target="_blank">
+					<a href={require('../assets/YashChawla-Resume.pdf')} download="YashChawla-Resume" target="_blank">
 					<button className="dwld-btn" /*style={{backgroundColor:'black', color:'white', padding:12,borderRadius:30, marginTop:20, marginLeft:50}}*/ onClick={downloadCV} >DOWNLOAD CV</button>
 				</a>
 				</div>
