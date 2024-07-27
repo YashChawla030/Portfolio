@@ -18,6 +18,7 @@ function Project () {
 					<div className='project-container'>
 						<ServiceCardView name={'Music Streaming Web Application'} className="card"/>
 						<ServiceCardView name={'Horror Game (Coming Soon...)'} className="card"/>
+						<ServiceCardView name={'Impossible Win'} className="card"/>
 					
 					</div>
 				</div>

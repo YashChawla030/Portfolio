@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import ServiceCardView from '../components/ServiceCardView';
 import './Home.css';
@@ -71,7 +72,7 @@ function Home (){
 			<div className='social-portion'>
 				<div className='header-view'>
 					<div className='service-header'>
-						<h1 style={{'color':'white' , 'textAlign':'middle'}} >Services</h1>
+						<h1 style={{'color':'white' , 'textAlign':'middle'}} >At Your Service</h1>
 						{/* <h1 style={{'color':'#fff', 'fontSize':55}}>What I Do</h1> */}
 					</div>
 				</div>
